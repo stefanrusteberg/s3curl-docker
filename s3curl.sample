@@ -1,0 +1,17 @@
+#TODO: you need to change this file.
+# put aws access credentials in this file before building 
+# the docker image 
+
+%awsSecretAccessKeys = (
+    # personal account
+    personal => {
+        id => '1ME55KNV6SBTR7EXG0R2',
+        key => 'zyMrlZUKeG9UcYpwzlPko/+Ciu0K2co0duRM3fhi',
+    },
+
+    # corporate account
+    company => {
+        id => '1ATXQ3HHA59CYF1CVS02',
+        key => 'WQY4SrSS95pJUT95V6zWea01gBKBCL6PI0cdxeH8',
+    },
+);
