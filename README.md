@@ -7,7 +7,7 @@ To build your docker s3curl image clone this repository and modify the s3curl.sa
 Once file is modified you can run this command to build your docker image:
 (this command should be ran under the repository that you have cloned where the Docker fi)
 ```
-docker image build -t <choose an image name here> .
+docker image build -t <choose an image name here> --build-arg endpoint=<Swift3 ip @ or FQDN > .
 ```
 
 
